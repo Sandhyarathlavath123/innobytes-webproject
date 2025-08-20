@@ -1,0 +1,147 @@
+
+.bg-hotpink {
+    background-color: #22c0e0 !important;
+}
+.bg-img {
+    background-image: url("baranti.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Add this line */
+}
+.text-color{
+    color: #229ae0 !important;
+}
+.button{
+    background-color: #22d3e0 !important;
+    color: white !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.button:hover {
+    background-color: #1a8bc0 !important;
+}
+.about-addres{
+    font-size: 14px;
+    color: #B427F5;
+    margin-top: 20px;
+    text-align: center;
+}
+.about-contact{
+    font-size: 14px;
+    color: #6127f5;
+    margin-top: 20px;
+    text-align: center;
+}
+.about-sec-img{
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.living-room-item {
+    text-align: left;
+    margin: 20px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    background: #fff;
+    flex: 1 1 300px; /* Responsive flex sizing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 250px;
+    max-width: 400px;
+}
+
+.living-room-img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 0;
+    object-fit: cover;
+    display: block;
+}
+    
+}
+.text-black {
+    color: #000 !important;
+    font-weight: bold;
+}
+.text-gray {
+    color: #6c757d !important;
+    font-weight: bold;
+
+}
+.services-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.services-list li {
+    position: relative;
+    padding-left: 2em;
+    margin-bottom: 10px;
+}
+
+.services-list li::before {
+    content: "★"; /* Change this to any symbol you like, e.g. "✔", "→", "•", etc. */
+    position: absolute;
+    left: 0;
+    color: #E02268; /* Default symbol color */
+    font-size: 1.2em;
+}
+
+.service-red { color: #E02268; }
+.service-blue { color: #007bff; }
+.service-green { color: #28a745; }
+.service-purple { color: #6f42c1; }
+.text-blue {
+    color: #007bff !important;
+}
+.text-green {
+    color: #28a745 !important;
+}
+.gallary-img {
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    transition: transform 0.2s;
+}
+
+.gallary-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+.text-purple {
+    color: #6f42c1 !important;
+}
+.contact-container {
+    border: 3px solid #b3c6ff; /* peaceful light blue */
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(100, 150, 200, 0.12);
+    background: #f8fbff;
+    padding: 2rem;
+}
+footer {
+  background-color: #222;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 15px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #1da1f2; /* Twitter blue or customize per platform */
+}
